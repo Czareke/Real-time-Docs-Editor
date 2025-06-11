@@ -12,6 +12,8 @@ const server = http.createServer(app);
 const io = socketServer(server);
 
 // Start the server
+
+
 server.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
     console.log(`Socket.IO server initialized`);
